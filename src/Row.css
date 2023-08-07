@@ -1,0 +1,27 @@
+/* Row.css */
+.row {
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    overflow: hidden; /*  to hide the scrollbar of the .row_posters container */
+  }
+  
+  .row_poster {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+    overflow: hidden; /*  to hide the scrollbar for individual .row_poster elements */
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  

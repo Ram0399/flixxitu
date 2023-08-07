@@ -1,0 +1,29 @@
+/* Nav.css */
+.nav {
+  /* ... existing styles ... */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px; /* Add margin to create some space */
+}
+
+.nav_logo {
+  /* ... existing styles ... */
+}
+
+.nav_avatar {
+  /* ... existing styles ... */
+}
+
+.nav_avatar_right {
+  /* Additional styles for the avatar on the right */
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 20px; /* Add margin to create some space */
+}
